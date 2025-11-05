@@ -137,7 +137,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-MIT © [Van-Duyet Le](https://github.com/duyetdev)
+MIT © [Van-Duyet Le](https://github.com/duyet)
 
 ## Keywords
 
@@ -148,7 +148,7 @@ Vietnamese, text normalization, NLP, teencode, slang expansion, text processing
 **Van-Duyet Le**
 
 - Website: https://duyet.net
-- GitHub: [@duyetdev](https://github.com/duyetdev)
+- GitHub: [@duyet](https://github.com/duyet)
 
 ## Changelog
 

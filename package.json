@@ -19,7 +19,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/duyetdev/node-normalizer.git"
+		"url": "git+https://github.com/duyet/node-normalizer.git"
 	},
 	"keywords": [
 		"node",
@@ -34,9 +34,9 @@
 	"author": "Van-Duyet Le",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/duyetdev/node-normalizer/issues"
+		"url": "https://github.com/duyet/node-normalizer/issues"
 	},
-	"homepage": "https://github.com/duyetdev/node-normalizer#readme",
+	"homepage": "https://github.com/duyet/node-normalizer#readme",
 	"engines": {
 		"node": ">=12.0.0"
 	},
