@@ -1,5 +1,3 @@
 'use strict';
 
-(function() {
-    module.exports = require('./lib/normalizer');
-}).call(this);
+module.exports = require('./lib/normalizer');

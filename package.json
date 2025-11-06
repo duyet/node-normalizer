@@ -1,33 +1,50 @@
 {
-  "name": "node-normalizer",
-  "version": "0.0.1",
-  "description": "Expanded string to their full meaning for vietnamese.",
-  "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/duyetdev/node-normalizer.git"
-  },
-  "keywords": [
-    "node",
-    "vietnamese",
-    "duyetdev",
-    "normalizer",
-    "npl",
-    "vntokenizer"
-  ],
-  "author": "Van-Duyet Le",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/duyetdev/node-normalizer/issues"
-  },
-  "homepage": "https://github.com/duyetdev/node-normalizer#readme",
-  "devDependencies": {
-    "mocha": "11.7.5"
-  },
-  "dependencies": {
-    "lodash": "^4.0.0"
-  }
+	"name": "node-normalizer",
+	"version": "1.0.0",
+	"description": "Normalize Vietnamese text by expanding slang and teencode to their full meanings.",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"lib/",
+		"model/",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"test": "mocha",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"format": "prettier --write \"**/*.{js,json,md}\"",
+		"format:check": "prettier --check \"**/*.{js,json,md}\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/duyet/node-normalizer.git"
+	},
+	"keywords": [
+		"node",
+		"vietnamese",
+		"normalizer",
+		"nlp",
+		"vntokenizer",
+		"teencode",
+		"slang",
+		"text-processing"
+	],
+	"author": "Van-Duyet Le",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/duyet/node-normalizer/issues"
+	},
+	"homepage": "https://github.com/duyet/node-normalizer#readme",
+	"engines": {
+		"node": ">=16.0.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.57.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.1.3",
+		"mocha": "11.7.5",
+		"prettier": "^3.2.5"
+	}
 }
