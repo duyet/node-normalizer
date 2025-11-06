@@ -14,6 +14,10 @@ A lightweight Node.js library for normalizing Vietnamese text by expanding slang
 - ✅ Comprehensive test coverage
 - 💪 Input validation and error handling
 
+## Requirements
+
+- Node.js >= 16.0.0
+
 ## Installation
 
 ```bash
@@ -161,6 +165,7 @@ Vietnamese, text normalization, NLP, teencode, slang expansion, text processing
 - ✅ Added extensive test coverage
 - 🛠️ Added ESLint and Prettier for code quality
 - 🚀 Modernized codebase with ES6+ features
+- ⚠️ **Breaking:** Dropped support for Node.js 12 and 14 (now requires Node.js >= 16.0.0)
 
 ### 0.0.1
 
